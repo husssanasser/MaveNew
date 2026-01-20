@@ -8,9 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
         String s = RandomStringUtils.randomAlphabetic(10);
         System.out.println(s);
+        SpringApplication.run(DemoApplication.class, args);
+
     }
 
 }
